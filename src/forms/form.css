@@ -1,0 +1,23 @@
+.form-heading {
+   text-align: center;
+   font-size: 1.3rem;
+   margin: 0;
+   margin-bottom: 2em;
+}
+
+.input-group {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: center;
+   gap: 1em;
+}
+
+.input-group > label {
+   font-style: italic;
+}
+
+.input-group > input {
+   padding: .3em .5em;
+   border-radius: .3em;
+}
+

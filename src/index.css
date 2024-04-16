@@ -1,0 +1,35 @@
+*,*::before,*::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: .5em;
+}
+
+.form {
+   padding: .5em;
+   box-shadow: 0 0 5px .5px hsl(0, 0%, 50%);
+   border-radius: .5em;
+   max-width: 500px;
+   margin: 3em auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   gap: 1em;
+}
+
+.form-component {
+   align-self: center;
+}
+
+.btn-group {
+   display: flex;
+   gap: 1em;
+   align-items: center;
+}
+
+.btn-group > button {
+   padding: .3em .7em;
+   border-radius: .3em;
+}
