@@ -5,9 +5,15 @@
 body {
    margin: 0;
    padding: .5em;
+   background-color: hsl(60, 80%, 90%);
+}
+
+.heading {
+   text-align: center;
 }
 
 .form {
+   background-color: white;
    padding: .5em;
    box-shadow: 0 0 5px .5px hsl(0, 0%, 50%);
    border-radius: .5em;
@@ -30,6 +36,24 @@ body {
 }
 
 .btn-group > button {
-   padding: .3em .7em;
+   cursor: pointer;
+   padding: .4em 1em;
    border-radius: .3em;
+   border: none;
+   outline: none;
+   box-shadow: 0 0 0 1px hsl(0, 0%, 30%);
+}
+
+.btn-group > button:hover,
+.btn-group > button:focus {
+   box-shadow: 0 0 0 2px hsl(0, 0%, 50%);
+}
+
+.back-btn {
+
+}
+
+.next-btn {
+   background-color: hsl(240, 50%, 50%);
+   color: hsl(0, 0%, 100%);
 }
