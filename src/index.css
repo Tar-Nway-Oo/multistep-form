@@ -49,10 +49,6 @@ body {
    box-shadow: 0 0 0 2px hsl(0, 0%, 50%);
 }
 
-.back-btn {
-
-}
-
 .next-btn {
    background-color: hsl(240, 50%, 50%);
    color: hsl(0, 0%, 100%);
